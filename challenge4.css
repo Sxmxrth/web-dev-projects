@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 30px;
+  text-align: center;
+}
+nav {
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  margin: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 1px;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  overflow: auto;
+}
+nav a:hover {
+  color: beige;
+}
+/* .bag {
+        border: none;
+        border-radius: 5px;
+      } */
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+div {
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(223, 233, 241, 0.87);
+  padding: 5px;
+  margin: 10px;
+  height: 275px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.iphone,
+.air,
+.pro,
+.imac,
+.ipad,
+.iwatch {
+  float: left;
+  border-radius: 5px;
+  margin: 12px;
+}
+.footer {
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+.footer a {
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px;
+  margin: 5px;
+  overflow: auto;
+}
+.footer a:hover {
+  color: beige;
+}
